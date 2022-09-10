@@ -13,3 +13,58 @@
 }
 
 /* your code */
+*{
+  background-color: rgb(25, 61, 52);
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h1{
+  color: white;
+  font-size: 50px;
+  margin: 5px 80px;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(211, 201, 201);
+  height: 80px;
+  margin: 5px 80px 5px;
+  font-size: 20px;
+  padding: 1em;
+  
+}
+header label{
+  background-color: rgb(211,201,201);
+  font-weight: ;
+}
+section{
+  border: 2px solid rgb(199, 196, 196);
+  border-radius: .2em;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1em;
+  margin: 5px 80px;
+}
+div{
+  height: 25px;
+  background-color: rgb(71, 163, 94);
+  margin: 2px;
+  border-radius: 2px;
+  color: rgb(25, 61, 52);
+  font-weight: 600;
+
+}
+section> div{
+  display: flex;
+  justify-content: flex-end;
+  padding:2px 5px;
+  align-items: center;
+}
+/* your code */
